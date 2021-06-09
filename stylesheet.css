@@ -1,0 +1,706 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a#username {
+  color: #828282 !important;
+}
+
+a#username:hover {
+  color: #18a0fb !important;
+}
+
+a.foot {
+  color: #bdbdbd !important;
+  font-weight: normal !important;
+  margin-left: 0;
+}
+
+a.foot:hover {
+  color: #18a0fb !important;
+}
+
+header,
+main {
+  margin: 0 190px;
+}
+
+#heading {
+  width: 587px;
+  height: 64px;
+  margin: 49px 0 35px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+#dots {
+  margin-top: 3px;
+  float: left;
+}
+
+#dot-body {
+  width: 592px;
+  height: 51px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+img#cake-pic {
+  width: 969px;
+  height: 444px;
+  margin-top: 45px;
+}
+
+.serves-times {
+  float: right;
+  margin-top: 48px;
+  padding: 10px 44px 60px 54px;
+  width: 122px;
+  height: 313px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.material-icons {
+  float: left;
+  margin-right: 14px;
+  transform: scale(1.5);
+}
+
+.restaurant_menu,
+#color-chng {
+  color: #f2994a;
+}
+
+.sec {
+  margin-top: 43px;
+}
+
+.title-span {
+  position: absolute;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+
+.val {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #333333;
+}
+
+.heads {
+  width: 128px;
+  height: 32px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin: 48px 0 32px;
+}
+
+.id-heads {
+  width: 200px;
+  height: 24px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin: 32px 0 31px;
+}
+
+.stps {
+  margin-left: 25px;
+  width: 581px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.25);
+  margin-left: -20px;
+  margin-right: 5px;
+}
+
+div.step-explain {
+  margin: 10px 0;
+}
+
+.foot {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #bdbdbd;
+}
+
+ol {
+  margin: 32px 0 57px 12px;
+  list-style: none;
+}
+
+li {
+  margin-top: 40px;
+  width: 528px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  counter-increment: step-counter;
+}
+
+li::before {
+  content: counter(step-counter);
+  background-color: #f2994a;
+  color: white;
+  font-weight: bold;
+  padding: 0 12px 6px;
+  border-radius: 6px;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  line-height: 32px;
+  position: absolute;
+  left: 190px;
+}
+
+footer {
+  text-align: center;
+  margin: 93px auto 24px;
+  height: 17px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  header,
+  main {
+    margin: 0 100px;
+  }
+
+  img#cake-pic {
+    width: 750px;
+    height: 346px;
+    border-radius: 12px;
+    margin-top: 22px;
+  }
+
+  .serves-times {
+    float: none;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+
+  .sect {
+    margin: 20px 100px 0 0;
+    float: left;
+  }
+
+  .title-span {
+    position: relative;
+    width: 15px;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .val {
+    margin-top: 0;
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  li::before {
+    display: none;
+  }
+
+  .head-1 {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header,
+  main {
+    margin: 0 80px 0 75px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header,
+  main {
+    margin: 0 50px 0 100px;
+  }
+
+  img#cake-pic {
+    width: 750px;
+    height: 346px;
+    border-radius: 12px;
+    margin-top: 22px;
+  }
+
+  .serves-times {
+    float: none;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+  .sect {
+    margin: 20px 100px 0 0;
+    float: left;
+  }
+
+  .title-span {
+    position: relative;
+    width: 15px;
+    font-size: 14px;
+    line-height: 10px;
+  }
+
+  .val {
+    margin-top: 0;
+    font-size: 13px;
+    line-height: 12px;
+  }
+
+  .head-1 {
+    margin-top: 100px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  header,
+  main {
+    margin: 0 100px;
+  }
+
+  .title-span {
+    width: 15px;
+    font-size: 12px;
+  }
+
+  .val {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .head-1 {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  header,
+  main {
+    margin: 0 20px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header,
+  main {
+    margin: 0 120px;
+  }
+
+  #heading {
+    margin-top: 100px;
+    width: 423px;
+    height: 29px;
+    font-size: 35px;
+    line-height: 32px;
+  }
+
+  #dot-body {
+    width: 400px;
+    height: 88px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  img#cake-pic {
+    width: 552px;
+    height: 308px;
+    border-radius: 12px;
+    margin-top: 22px;
+  }
+
+  .serves-times {
+    float: none;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+
+  .sect {
+    margin: 20px 40px 0 0;
+    float: left;
+  }
+
+  .material-icons {
+    float: left;
+    margin: 10px 10px 0 0;
+    transform: scale(1.2);
+  }
+
+  .title-span {
+    position: relative;
+    width: 15px;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .val {
+    margin-top: 0;
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+  .head-1 {
+    margin-top: 100px;
+    width: 96px;
+    height: 24px;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .head-2 {
+    margin-top: 390px;
+    width: 96px;
+    height: 24px;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .id-1 {
+    margin-top: -13px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .id-2 {
+    margin-top: 100px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .stps {
+    margin-top: -13px;
+    margin-left: 25px;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.25);
+    margin-left: -20px;
+    margin-right: 5px;
+  }
+
+  div.step-explain {
+    margin: 10px 0;
+  }
+
+  .foot {
+    height: 36px;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  ol {
+    margin: -3px 0 26px 12px;
+    list-style: none;
+  }
+
+  li {
+    margin-top: 20px;
+    width: 475px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 120px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header,
+  main {
+    margin: 0 100px;
+  }
+
+  #heading {
+    margin-top: 42px;
+    font-size: 30px;
+  }
+
+  #dot-body {
+    width: 345px;
+  }
+
+  img#cake-pic {
+    width: 452px;
+    height: 258px;
+  }
+
+  .serves-times {
+    margin-top: 34px;
+  }
+
+  .sect {
+    margin: 20px 30px 0 0;
+  }
+
+  .material-icons {
+    margin: 10px 5px 0 0;
+    transform: scale(1);
+  }
+
+  .title-span {
+    font-size: 11px;
+  }
+
+  .val {
+    font-size: 10px;
+  }
+
+  .head-1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .head-2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .id-1 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .id-2 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .stps {
+    width: 350px;
+    font-size: 14px;
+  }
+
+  .foot {
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  li {
+    width: 334px;
+  }
+
+  li::before {
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  header,
+  main {
+    margin: 0 60px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 60px;
+  }
+
+  img#cake-pic {
+    width: 402px;
+    height: 208px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header,
+  main {
+    margin: 0 50px;
+  }
+
+  #heading {
+    margin-top: 32px;
+    width: 323px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #dot-body {
+    width: 320px;
+    height: 88px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  img#cake-pic {
+    width: 352px;
+    height: 202px;
+  }
+
+  .serves-times {
+    float: none;
+    margin-top: 24px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+
+  .sect {
+    margin: 20px 20px 0 0;
+    float: left;
+  }
+
+  .material-icons {
+    float: left;
+    margin: 10px 5px 0 0;
+    transform: scale(0.95);
+  }
+
+  .title-span {
+    position: relative;
+    width: 15px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  .val {
+    margin-top: 0;
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .stps {
+    margin-top: -13px;
+    margin-left: 25px;
+    width: 321px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.25);
+    margin-left: -20px;
+    margin-right: 5px;
+  }
+
+  div.step-explain {
+    margin: 10px 0;
+  }
+
+  .foot {
+    height: 36px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  ol {
+    margin: -3px 0 26px 12px;
+    list-style: none;
+  }
+
+  li {
+    margin-top: 20px;
+    width: 284px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header,
+  main {
+    margin: 0 20px;
+  }
+
+  li::before {
+    position: absolute;
+    left: 20px;
+  }
+
+  input[type="checkbox"] {
+    margin-left: -21px;
+  }
+
+  .sect {
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  header,
+  main {
+    margin: 0 5px;
+  }
+
+  li::before {
+    left: 5px;
+  }
+
+  .sect {
+    transform: scale(1.05);
+  }
+}
