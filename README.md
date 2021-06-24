@@ -35,7 +35,7 @@
 
 </p>
 
-Challenge was to create a ***recipe page*** following the design given in website. The page should be responsive.
+Challenge was to create a ***recipe page*** following the design given on the website. The page should be responsive.
 
 ### Built With
 
