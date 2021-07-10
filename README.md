@@ -33,8 +33,6 @@
 | :---: | :---: |
 | ![images](assets/Screenshot.jpeg) | ![images](assets/Screenshot-mobile.jpg) |
 
-</p>
-
 Challenge was to create a ***recipe page*** following the design given on the website. The page should be responsive.
 
 ### Built With
